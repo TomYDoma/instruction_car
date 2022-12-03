@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class WheelActivity extends AppCompatActivity {
+public class KppActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_wheel);
+        setContentView(R.layout.activity_kpp);
     }
 }

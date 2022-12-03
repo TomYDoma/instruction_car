@@ -25,7 +25,7 @@
                 android:layout_marginLeft="50px"
                 android:layout_marginRight="50px"
                 android:paddingLeft="50px"
-                android:text="Тормозная система"
+                android:text="Трансмиссия"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
 
             <TextView
@@ -35,7 +35,7 @@
                 android:layout_margin="25px"
                 android:paddingLeft="25px"
                 android:paddingRight="25px"
-                android:text="@string/wheel_1"
+                android:text="@string/kpp_1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
             <ImageView
@@ -46,7 +46,7 @@
                 android:layout_marginRight="50px"
                 android:paddingLeft="50px"
                 android:paddingRight="50px"
-                app:srcCompat="@drawable/schema" />
+                app:srcCompat="@drawable/transmissions" />
             <TextView
                 android:id="@+id/textViewContent2"
                 android:layout_width="match_parent"
@@ -54,23 +54,57 @@
                 android:layout_margin="25px"
                 android:paddingLeft="25px"
                 android:paddingRight="25px"
-                android:text="@string/wheel_2"
+                android:text="@string/kpp_2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
-
-            <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                app:srcCompat="@drawable/kontur" />
 
             <TextView
                 android:id="@+id/textViewContent3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:paddingLeft="50px"
+                android:text="Сцепление"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/scepl" />
+
+            <TextView
+                android:id="@+id/textViewContent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="25px"
                 android:paddingLeft="25px"
                 android:paddingRight="25px"
-                android:text="@string/wheel_3"
+                android:text="@string/kpp_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <TextView
+                android:id="@+id/textViewContent5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:paddingLeft="50px"
+                android:text="Коробка передач"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/schema_kpp" />
+
+            <TextView
+                android:id="@+id/textViewContent6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25px"
+                android:paddingLeft="25px"
+                android:paddingRight="25px"
+                android:text="@string/kpp_4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         </LinearLayout>

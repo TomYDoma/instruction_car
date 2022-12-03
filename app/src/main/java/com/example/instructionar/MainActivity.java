@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, FuelActivity.class);
         startActivity(intent);
     }
+
+    public void kppOnClick(View view) {
+        Intent intent = new Intent(MainActivity.this, KppActivity.class);
+        startActivity(intent);
+    }
 }

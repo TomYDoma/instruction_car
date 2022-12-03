@@ -3,7 +3,9 @@ package com.example.instructionar;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class LightActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class LightActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

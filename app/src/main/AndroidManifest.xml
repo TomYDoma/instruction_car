@@ -26,23 +26,27 @@
                 android:value="" />
         </activity>
         <activity android:name=".WheelActivity"
-            android:label="wheel">
+            android:label="Тормозная система">
         </activity>
 
         <activity android:name=".radiatorActivity"
-            android:label="radiator">
+            android:label="Система охлаждения">
         </activity>
 
         <activity android:name=".LightActivity"
-            android:label="light">
+            android:label="Электрооборудование">
         </activity>
 
         <activity android:name=".EngineActivity"
-            android:label="engine">
+            android:label="Двигатель">
         </activity>
 
         <activity android:name=".FuelActivity"
-            android:label="fuel">
+            android:label="Топливная система">
+        </activity>
+
+        <activity android:name=".KppActivity"
+            android:label="Трансмиссия">
         </activity>
 
     </application>
