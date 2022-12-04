@@ -5,13 +5,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Фары"
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:paddingLeft="50px"
+                android:text="Электрооборудование"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <TextView
+                android:id="@+id/textViewContent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25px"
+                android:paddingLeft="25px"
+                android:paddingRight="25px"
+                android:text="@string/light_1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                app:srcCompat="@drawable/schema_electro" />
+
+            <TextView
+                android:id="@+id/textViewContent2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25px"
+                android:paddingLeft="25px"
+                android:paddingRight="25px"
+                android:text="@string/light_2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                app:srcCompat="@drawable/akb" />
+            <TextView
+                android:id="@+id/textViewContent3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25px"
+                android:paddingLeft="25px"
+                android:paddingRight="25px"
+                android:text="@string/light_3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:paddingLeft="50px"
+                android:paddingRight="50px"
+                app:srcCompat="@drawable/generator" />
+
+            <TextView
+                android:id="@+id/textViewContent4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25px"
+                android:paddingLeft="25px"
+                android:paddingRight="25px"
+                android:text="@string/light_4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
